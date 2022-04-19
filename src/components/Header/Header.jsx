@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default function Header() {
   return (
     <>
-      <headerBarPseudo />
+      <HeaderBarPseudo />
       <HeaderBar>
         <HeaderList>
           <li>QUIZZIFY</li>
@@ -39,7 +39,7 @@ const HeaderBar = styled.div`
   opacity: 0.8;
 `;
 
-const headerBarPseudo = styled.div`
+const HeaderBarPseudo = styled.div`
   z-index: 5;
   width: 100%;
   height: 10rem;
@@ -47,7 +47,7 @@ const headerBarPseudo = styled.div`
   top: 0;
   display: flex;
   justify-content: space-evenly;
-  border-radius: 8px 8px 0 0;
+  border-radius: 0 0 8px 8px;
 
   background: rgb(255, 255, 255);
 `;

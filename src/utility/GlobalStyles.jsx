@@ -12,11 +12,13 @@ html{font-size: 62.5%;
 
 }
 body {
+  width: 100%;
   margin: 0;
-  background-color: #53744bc4;
+  background: rgb(158,127,180);
+  background: linear-gradient(42deg, rgba(158,127,180,1) 0%, rgba(162,251,217,1) 50%, rgba(182,255,180,1) 100%);
   color: #969696;
   font-family: "Montserrat", sans-serif;
-  background-image: url("./src/components/Images/question-mark-background-1909040_1280 1.png");
+  
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

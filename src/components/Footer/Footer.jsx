@@ -74,8 +74,9 @@ const NavList = styled.li`
     border-left: solid #96969697 0.4rem;
   }
   &:hover {
-    filter: invert(39%) sepia(25%) saturate(554%) hue-rotate(62deg)
-      brightness(98%) contrast(91%);
+    filter: invert(81%) sepia(7%) saturate(2628%) hue-rotate(214deg)
+      brightness(83%) contrast(101%);
+
     cursor: pointer;
   }
   img {
