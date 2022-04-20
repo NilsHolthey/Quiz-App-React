@@ -40,11 +40,11 @@ const FooterBar = styled.div`
   justify-content: space-evenly;
   border-radius: 8px 8px 0 0;
   border: solid #faf9f9 0.3rem;
-  background: rgb(193, 193, 193);
+  background: rgb(162, 251, 217, 1);
   background: linear-gradient(
     90deg,
-    rgba(193, 193, 193, 1) 0%,
-    rgba(228, 228, 228, 1) 34%,
+    rgba(162, 251, 217, 1) 0%,
+    rgba(162, 251, 217, 1) 34%,
     rgba(255, 255, 255, 1) 64%
   );
   opacity: 0.8;
@@ -80,8 +80,9 @@ const NavList = styled.li`
     cursor: pointer;
   }
   img {
-    filter: invert(70%) sepia(0%) saturate(4722%) hue-rotate(57deg)
-      brightness(85%) contrast(75%);
+    filter: invert(85%) sepia(0%) saturate(4722%) hue-rotate(57deg)
+      brightness(65%) contrast(75%);
+
     height: 7rem;
     padding-left: 1rem;
     padding-right: 1rem;

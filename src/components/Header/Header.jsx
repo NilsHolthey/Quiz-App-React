@@ -6,7 +6,7 @@ export default function Header() {
       <HeaderBarPseudo />
       <HeaderBar>
         <HeaderList>
-          <li>QUIZZIFY</li>
+          <li>Boolify</li>
           <Logo>
             <img
               src="src/components/Images/frage-stellen-100 1.svg"
@@ -29,14 +29,14 @@ const HeaderBar = styled.div`
   justify-content: center;
   border-radius: 0 0 8px 8px;
   border: solid white 0.3rem;
-  background: rgb(193, 193, 193);
+  background: rgba(182, 255, 180, 1);
   background: linear-gradient(
     270deg,
-    rgba(193, 193, 193, 1) 0%,
-    rgba(228, 228, 228, 1) 34%,
+    rgba(182, 255, 180, 1) 0%,
+    rgba(182, 255, 180, 1) 34%,
     rgba(255, 255, 255, 1) 64%
   );
-  opacity: 0.8;
+  opacity: 0.6;
 `;
 
 const HeaderBarPseudo = styled.div`

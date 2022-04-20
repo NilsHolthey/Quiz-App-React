@@ -3,8 +3,8 @@ import styled, { css } from "styled-components";
 import React, { useState } from "react";
 
 export default function Card({ question, answer, category, difficulty }) {
-  const [showAnswer, setShowAnswer] = useState(true);
-  const [visible, setVisible] = useState(false);
+  const [showAnswer, setShowAnswer] = useState(false);
+
   const [bookmarkColor, setBookmarkColor] = useState(false);
 
   return (
@@ -21,15 +21,14 @@ export default function Card({ question, answer, category, difficulty }) {
           alt="bookmark"
         />
         <p>{question.replace(/&quot;|&#039;|&ldquo;|&rdquo;/g, "'")}</p>
-        {visible && <Answer>{answer} </Answer>}
+        {showAnswer && <Answer>{answer} </Answer>}
         <AswButton
           type="button"
           onClick={() => {
             setShowAnswer(!showAnswer);
-            setVisible(!visible);
           }}
         >
-          {showAnswer ? "show answer" : "hide answer"}
+          {showAnswer ? "hide answer" : "show answer"}
         </AswButton>
 
         <ul>
